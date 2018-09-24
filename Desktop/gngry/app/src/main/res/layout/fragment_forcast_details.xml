@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForcastDetails"
+    android:orientation="vertical"
+    android:background="#fff">
+
+   <TextView
+       android:id="@+id/date"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/cloud_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+    <TextView
+        android:id="@+id/cloud_desr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+</LinearLayout>
