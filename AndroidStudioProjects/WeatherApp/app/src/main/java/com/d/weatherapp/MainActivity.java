@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new CurrentWeather(), "Currentweather");
-        adapter.addFragment(new Weatherforecast(), "Wheatherforecast");
+        adapter.addFragment(new Weatherforecast(), "Weatherforecast");
         viewPager.setAdapter(adapter);
     }
 
