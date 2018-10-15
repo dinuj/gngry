@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather_image"
+    tools:context=".ForecastDetails"
+    android:paddingLeft="@dimen/pading_large"
+    android:paddingStart="@dimen/pading_large"
+    android:paddingRight="@dimen/pading_large"
+    android:paddingEnd="@dimen/pading_large">
+
+
+
+
+
+    <TextView
+        android:id="@+id/m_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/magin_largexxl"
+        android:text="35"
+        android:textSize="@dimen/temptext_size"
+        android:textColor="@color/textWhite"/>
+
+
+    <TextView
+        android:id="@+id/m_main"
+        android:layout_below="@+id/m_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Clouds"
+        android:textSize="@dimen/textsize_large"
+        android:textColor="@color/textWhite"/>
+
+    <TextView
+        android:id="@+id/m_place"
+        android:layout_below="@+id/m_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Bengalore"
+        android:textSize="@dimen/textsize_mediam"
+        android:layout_marginTop="@dimen/magin_mediam"
+        android:textColor="@color/textWhite"/>
+
+
+    <TextView
+        android:id="@+id/m_date"
+        android:layout_below="@id/m_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/2/1001"
+        android:textSize="@dimen/textsize_mediam"
+        android:layout_marginTop="@dimen/magin_large"
+        android:textColor="@color/textWhite"/>
+    <TextView
+        android:id="@+id/m_time"
+        android:layout_below="@+id/m_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12.00 PM"
+        android:textSize="@dimen/textsize_mediam"
+        android:layout_marginTop="@dimen/magin_mediam"
+        android:textColor="@color/textWhite"/>
+
+    <TextView
+        android:id="@+id/m_desc"
+        android:layout_below="@+id/m_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="few clouds"
+        android:textSize="@dimen/textsize_mediam"
+        android:layout_marginTop="@dimen/magin_mediam"
+        android:textColor="@color/textWhite"/>
+
+    <TextView
+        android:id="@+id/m_humidity"
+        android:layout_below="@+id/m_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity: 52"
+        android:textSize="@dimen/textsize_mediam"
+        android:layout_marginTop="@dimen/magin_mediam"
+        android:textColor="@color/textWhite"/>
+    <TextView
+        android:id="@+id/m_pressure"
+        android:layout_below="@+id/m_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure: 922.84"
+        android:textSize="@dimen/textsize_mediam"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/textWhite"/>
+
+
+    <TextView
+        android:id="@+id/m_tempmax"
+        android:layout_below="@+id/m_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp max: 303.3"
+        android:textSize="@dimen/textsize_mediam"
+        android:layout_marginTop="@dimen/magin_mediam"
+        android:textColor="@color/textWhite"/>
+    <TextView
+        android:id="@+id/m_tempmin"
+        android:layout_below="@+id/m_tempmax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp min: 303.064"
+        android:textSize="@dimen/textsize_mediam"
+        android:layout_marginTop="@dimen/magin_mediam"
+        android:textColor="@color/textWhite"/>
+
+
+</RelativeLayout>
+
+    <!--private double tempMin;-->
+
+    <!--private double tempMax;-->
+
+    <!--private double pressure;-->
+
+    <!--private Integer humidity;-->
+

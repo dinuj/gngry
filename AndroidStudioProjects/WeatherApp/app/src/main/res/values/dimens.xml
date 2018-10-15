@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="magin_small">4dp</dimen>
+    <dimen name="magin_mediam">8dp</dimen>
+    <dimen name="magin_large">16dp</dimen>
+    <dimen name="magin_largexl">24dp</dimen>
+    <dimen name="magin_largexxl">32dp</dimen>
+
+
+    <dimen name="textsize_small">16sp</dimen>
+    <dimen name="textsize_mediam">18sp</dimen>
+    <dimen name="textsize_large">20sp</dimen>
+    <dimen name="textsize_largexl">22sp</dimen>
+    <dimen name="textsize_largexxl">24sp</dimen>
+    <dimen name="temptext_size">48sp</dimen>
+
+
+
+    <dimen name="pading_small">4dp</dimen>
+    <dimen name="pading_mediam">8dp</dimen>
+    <dimen name="pading_large">16dp</dimen>
+    <dimen name="pading_largexl">24dp</dimen>
+
+
+</resources>

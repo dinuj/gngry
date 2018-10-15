@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/magin_large"
+        android:layout_marginLeft="@dimen/magin_large"
+        android:layout_marginRight="@dimen/magin_large"
+        android:layout_marginStart="@dimen/magin_large"
+        android:layout_marginTop="@dimen/magin_large"
+        card_view:cardCornerRadius="@dimen/pading_small">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7986CB">
+
+            <TextView
+                android:id="@+id/mdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/magin_mediam"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/pading_mediam"
+                android:paddingRight="@dimen/pading_mediam"
+                android:text="12/03/2018"
+                android:textColor="#fff"
+                android:textSize="@dimen/textsize_mediam" />
+
+            <TextView
+                android:id="@+id/mtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/magin_mediam"
+                android:layout_marginTop="@dimen/magin_mediam"
+                android:layout_toRightOf="@id/mdate"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/pading_mediam"
+                android:paddingRight="@dimen/pading_mediam"
+                android:text="1.00 PM"
+                android:textColor="@color/textWhite"
+                android:textSize="@dimen/textsize_mediam" />
+
+            <TextView
+                android:id="@+id/mMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mtime"
+                android:layout_marginTop="@dimen/magin_mediam"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/pading_mediam"
+                android:paddingRight="@dimen/pading_mediam"
+                android:textColor="@color/textWhite"
+                android:textSize="@dimen/textsize_largexl" />
+
+            <TextView
+                android:id="@+id/mplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mMain"
+                android:layout_marginTop="@dimen/magin_mediam"
+                android:gravity="center_vertical"
+                android:padding="@dimen/pading_mediam"
+                android:text="Bangalore"
+                android:textColor="@color/textWhite"
+                android:textSize="@dimen/textsize_mediam" />
+
+            <TextView
+                android:id="@+id/mtemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/magin_largexxl"
+                android:layout_marginRight="@dimen/magin_largexxl"
+                android:text="37"
+                android:textColor="@color/textWhite"
+                android:textSize="@dimen/temptext_size" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

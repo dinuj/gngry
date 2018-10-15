@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrentWeather"
+    android:paddingEnd="@dimen/pading_large"
+    android:paddingLeft="@dimen/pading_large"
+    android:paddingRight="@dimen/pading_large"
+    android:paddingStart="@dimen/pading_large"
+    android:background="@drawable/weather_image">
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/magin_largexxl"
+        android:textColor="@color/textWhite"
+        android:textSize="@dimen/temptext_size" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp"
+        android:layout_marginTop="@dimen/magin_small"
+        android:textColor="@color/textWhite"
+        android:textSize="@dimen/textsize_mediam" />
+
+    <TextView
+        android:id="@+id/humidity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weather"
+        android:textColor="@color/textWhite"
+        android:text="Humidity: "
+        android:textSize="@dimen/textsize_mediam" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_toRightOf="@id/humidity_text"
+        android:layout_toEndOf="@id/humidity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weather"
+        android:textColor="@color/textWhite"
+        android:textSize="@dimen/textsize_mediam" />
+
+    <TextView
+        android:id="@+id/temp_max_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/humidity_text"
+        android:textColor="@color/textWhite"
+        android:layout_marginTop="@dimen/magin_small"
+        android:textSize="@dimen/textsize_small"
+        android:text="Temp max: "/>
+
+    <TextView
+        android:id="@+id/temp_max"
+        android:layout_toRightOf="@+id/temp_max_text"
+        android:layout_toEndOf="@+id/temp_max_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/humidity"
+        android:textColor="@color/textWhite"
+        android:layout_marginTop="@dimen/magin_small"
+        android:textSize="@dimen/textsize_small" />
+
+    <TextView
+        android:id="@+id/temp_min_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp_max_text"
+        android:textColor="@color/textWhite"
+        android:layout_marginTop="@dimen/magin_small"
+        android:textSize="@dimen/textsize_small"
+        android:text="Temp min: "/>
+
+    <TextView
+        android:id="@+id/temp_min"
+        android:layout_toEndOf="@+id/temp_min_text"
+        android:layout_toRightOf="@+id/temp_min_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp_max"
+        android:textColor="@color/textWhite"
+        android:layout_marginTop="@dimen/magin_small"
+        android:textSize="@dimen/textsize_small" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/temp_min"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/place"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

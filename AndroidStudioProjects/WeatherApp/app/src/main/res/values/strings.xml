@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <string name="humidity">Humidity: </string>
+    <string name="tempmax">Temp max: </string>
+    <string name="temp_min">Temp min: </string>
+    <string name="temp">\u2103</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
